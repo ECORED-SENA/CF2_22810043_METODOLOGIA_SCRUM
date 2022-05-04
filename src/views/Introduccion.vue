@@ -10,7 +10,7 @@
 
     
     
-    .cajon-b.color-primario.p-3.mb-5
+    .cajon-b.color-primario.p-3.mb-5(data-aos="fade")
       p.mb-0 Se da la bienvenida a este componente denominado #[span.color-text <b>“Planeación, ejecución y desarrollos ágiles”</b>] y se desea muchos éxitos en este recorrido formativo. Para comenzar, visualice con atención el recurso que enseguida se muestra:
 
     figure.mb-5
