@@ -18,9 +18,9 @@
     p.mb-5.text-center Preste atención a estos dos aspectos que son de  suma importancia:
 
   
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.fondo-2
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.px-4(data-aos="fade-down")
-        .tarjeta.tarjeta-flip-1(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor.color-tarjeta-1
             .tarjeta-flip__img
               figure.justify-center
@@ -28,14 +28,14 @@
             .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
               p.text-white   1. Al inicio de un <i>sprint</i> han de seleccionarse los elementos del product backlog por desarrollar.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-down")
-        .tarjeta.tarjeta-flip-1(@mouseover="indicadorTarjetaFlip = false")
+        .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor.color-tarjeta-2
             .tarjeta-flip__img
               figure.justify-center
                 img.img250.mt-4(src='@/assets/curso/images/tema1/img_3.svg', alt='imagen 1-2')
             .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
               p.text-white 2. Estas actividades se ejecutarán ajustadas a la velocidad del equipo, aportando mucho valor al producto.
-     
+
     Separador 
    
     #t_1_1.titulo-segundo

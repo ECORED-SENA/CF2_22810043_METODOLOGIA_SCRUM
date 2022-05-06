@@ -29,13 +29,12 @@
       .h2 3.1. Valores XP
     
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg.order-2.order-lg-1(data-aos="fade-right")
-        .custom_box_rigth 
+      .col-lg-7.md-5(data-aos="fade-right")
           p.mb-3 Se trata de aquellos principios que regulan los procesos, acciones, actividades, fases y funcionamiento de los roles dentro de un proyecto o desarrollo de producto. Para efectivizar los valores XP debe existir una unión entre pensamientos y prácticas en el día a día; ello dará las pautas para configurar la identidad del trabajo mismo, incluso, del producto final.
           .cajon.color-custom-2.p-4.mb-4
            p Los valores que orientan el desarrollo en XP son la simplicidad, la comunicación, el feedback, el respeto, la valentía, la calidad de vida y demás valores que se quieran adicionar en cada organización. 
-      .col-auto.mb-5.mb-lg-0.onTop.order-1.order-lg-1(data-aos="fade-left")
-        img(src="@/assets/curso/images/tema3/img_2.jpg" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -1rem;").m-auto
+      .col-lg-5.md-5(data-aos="fade-left")
+        img(src="@/assets/curso/images/tema3/img_2.jpg").m-auto
     
     p.mb-3.text-center(data-aos="fade-down") Familiarícese con los siguientes valores del método XP y sus aspectos característicos; procure llevar registro de lo más destacado en su libreta personal de apuntes:
 

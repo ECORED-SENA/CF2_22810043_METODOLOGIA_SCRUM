@@ -8,14 +8,14 @@
       h1 Métodos ágiles
     
     .row.justify-content-center.align-items-center
-      .col-lg.order-1.order-lg-2(data-aos="fade-right")
-        .custom_box_left-2 
+      .col-lg-6.md-5(data-aos="fade-right")
+        img(src="@/assets/curso/images/tema2/img_1.jpg" alt='AvatarTop').m-auto
+      .col-lg-6.md-5(data-aos="fade-left")
           p.mb-3 La incertidumbre por la falta de respuesta en los proyectos de desarrollo es muy común y por esto, se empiezan a proponer ciertos tipos de metodologías ágiles. En 1986 Nonaka y Takeuchi destacaron la forma de trabajar en la que un equipo acoge las diferentes fases, así como en un juego de Rugby, afrontando un Scrum, orientados hacia un mismo camino y a la par.
 
           p.mb-0 Por definición y naturaleza una metodología ágil es aquella que favorece la aceleración de los procesos en un proyecto o desarrollo, gracias a que permite adaptaciones a las maneras y formas de trabajo, a los tiempos, a los roles, a las condiciones mismas del producto o proyecto, etc.
   
-      .col-auto.mb-5.mb-lg-0.onTop.order-2.order-lg-1(data-aos="fade-left")
-        img(src="@/assets/curso/images/tema2/img_1.jpg" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -3rem;").m-auto
+      
     
     Separador 
     
