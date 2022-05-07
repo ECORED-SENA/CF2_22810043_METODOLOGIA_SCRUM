@@ -16,8 +16,8 @@
         img(src="@/assets/curso/images/tema4/img_1.jpg" alt="", style="width:450px; display:block; margin: 0 auto;")
     
     p.text-center.mb-5(data-aos="fade-down") Sobre Kanban tenga en cuenta:
-  .container.bg-white.p-4.p-md-5.bg-tema1.cs
-
+  
+  .container.bg-white.p-4.p-md-5.bg-tema1
     .col-lg-12.px-lg-5.px-4
       .row.justify-content-center.mb-5
         .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
