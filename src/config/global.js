@@ -44,12 +44,6 @@ export default {
             titulo: '<i>Sprint review</i>',
             hash: 't_1_3',
           },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.4',
-            titulo: 'Listas',
-            hash: 'listas',
-          },
         ],
       },
       {
@@ -68,14 +62,8 @@ export default {
           {
             icono: 'far fa-file-alt',
             numero: '2.2',
-            titulo: 'Video Motion',
-            hash: 't_2_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '2.3',
             titulo: 'Diferentes métodos ágiles',
-            hash: 't_2_3',
+            hash: 't_2_2',
           },
         ],
       },

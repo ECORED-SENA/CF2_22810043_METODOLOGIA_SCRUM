@@ -67,39 +67,40 @@
 
           .tarjeta.color-infografica.p-2(x="31%" y="6%"  numero="+" )
             .row.justify-content-center.mb-3  
-              .col-8
+              .col-10
                 h3 1. <i>Sprint planning</i>
-                p  Se trata de la planeación del <i>sprint.</i>
+                p.mb-0  Se trata de la planeación del <i>sprint.</i>
 
           .tarjeta.color-infografica.p-2(x="86%" y="18%"  numero="+" )
             .row.justify-content-center.mb-3  
-              .col-8
+              .col-10
                 h3 2. Daily meeting
                 p Se trata de la reunión diaria con el <i>Development Team</i> (DT).
 
           .tarjeta.color-infografica.p-2(x="92%" y="72%"  numero="+")
             .row.justify-content-center.mb-3  
-              .col-8
+              .col-10
                 h3 3. <i>Grooming</i>
                 p Varias reuniones de refinamiento, necesarias para resolver inquietudes y continuar con el otro <i>sprint.</i>
           
           .tarjeta.color-infografica.p-2(x="10%" y="75%" numero="+" )
             .row.justify-content-center.mb-3      
-              .col-8
+              .col-10
                 h3 4. <i>Sprint review</i>
                 p Se realiza para entregar el producto acabado.
 
           .tarjeta.color-infografica.p-2(x="10%" y="24%"  numero="+" )
             .row.justify-content-center.mb-3  
-              .col-8
+              .col-10
                 h3 5. <i>Sprint retrospective</i>
                 p Se utiliza para favorecer la mejora continua en el equipo.
 
   .container.bg-white.p-4.p-md-5.container-bottom.mg-top
     
-    .row.justify-content-center.align-items-center.mb-5
-      .col-auto(data-aos="fade-left")
-    a.boton.color-acento-contenido.indicador__container(@click="modal1 = true")
+    .row.justify-content-center.align-items-center.position-relative.mb-5
+      img.position(src='@/assets/curso/images/tema1/ico_2.svg',  alt="",)
+      .col-auto
+    a.boton.color-acento-contenido.indicador__container.botom(@click="modal1 = true")
       span <i>¡Importante!</i> 
       .indicador--click(v-if="mostrarIndicador")
       .col
@@ -133,15 +134,42 @@
 
         p.mb-3 El <i>sprint planning</i> se divide en dos: el qué (what) y el cómo (how). A continuación, se detallan las particularidades de cada una de estas subdivisiones y otros elementos importantes relacionados:
     
-    .tarjeta.p-2.col-12.pos12.gris(data-aos="fade-down")
-      SlyderA(tipo="b")
-        img(src='@/assets/curso/images/tema1/img_7_1.png', alt='Texto que describa la imagen')
+    .tarjeta.col-md-12.col-12.pos12.gris.mb-5
+      SlyderA(tipo="b")(data-aos="fade-left")
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema1/1.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
         
-        img(src='@/assets/curso/images/tema1/img_8_1.png', alt='Texto que describa la imagen')
-
-        img(src='@/assets/curso/images/tema1/img_9_1.png', alt='Texto que describa la imagen')
-
-        img(src='@/assets/curso/images/tema1/img_10_1.png', alt='Texto que describa la imagen')
+          .col-lg-7.align-items-center
+            h5.aling-1 <i> How </i> (¿Cómo se hará?)
+              p.mt-3 Se hace el desglose de las historias de usuario <i> (user histories) </i>, participan: el equipo de desarrollo <i> (Development Team) </i>, el <i> Scrum Master </i> (SM) y, si se quiere se invita al <i> Product Owner </i> (PO).
+          
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema1/2.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
+          .col-lg-7.align-items-center
+            h5.aling-1 <i> What </i> (¿Qué se hará?)
+              p.mt-3 Es el detalle de la funcionalidad. Participa el Scrum Team y a veces, el cliente.
+        
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema1/3.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
+        
+          .col-lg-7.align-items-center
+            h5  Importancia del <i> sprint planning </i>
+              p.mt-3 Es muy importante, porque es allí donde el <b> DT </b> recoge y planifica el trabajo para el #[ span <i> sprint </i>]. Se tiene que proponer una metodología predictiva, puesto que no existe documentación. La comunicación entre todos debe ser fluida y dinámica. 
+          
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema1/4.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
+          .col-lg-7.align-items-center
+            h5 El <i> sprint planning </i> y las <i> user histories </i>
+              p.mt-3 Las historias de usuario del <i> product backlog </i> cambian, y es posible que se recalculen de nuevo; entonces será necesario volver a priorizarlas.
+          
     
     
     Separador 
@@ -152,7 +180,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg.order-2.order-lg-1(data-aos="fade-right")
         .custom_box_rigth 
-          p.mb-0 Se relaciona con el release, que es la forma de agrupar <i>sprints</i>. Es cuando el usuario no acepta algunas entregas de la funcionalidad finalizando cada <i>sprint</i> y se agrupan esos puntos. Concuerda con el final del <i>sprint</i> y se utiliza el<i>sprint</i> review para realizar la entrega total del producto.
+          p.mb-0 Se relaciona con el release, que es la forma de agrupar <i>sprints</i>. Es cuando el usuario no acepta algunas entregas de la funcionalidad finalizando cada <i>sprint</i> y se agrupan esos puntos. Concuerda con el final del <i>sprint</i> y se utiliza el <i>sprint</i> review para realizar la entrega total del producto.
   
       .col-auto.mb-5.mb-lg-0.onTop.order-1.order-lg-1(data-aos="fade-left")
         img(src="@/assets/curso/images/tema1/img_13.svg" alt='AvatarTop', style="width:330px; display:block; margin:-6rem -1rem;").m-auto

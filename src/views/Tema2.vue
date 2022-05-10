@@ -34,7 +34,7 @@
               img(src="@/assets/curso/images/tema2/img_2.svg")
               
 
-          .tarjeta.color-infografica.p-3(x="28%" y="45%"  numero="+" )
+          .tarjeta.color-infografica.p-4(x="28%" y="45%"  numero="+" )
             .row.justify-content-center.mb-3  
               .col-12
                 h3 1. Valorar individuos y sus interacciones frente a procesos y herramientas
@@ -75,19 +75,59 @@
 
     p.mb-4(data-aos="fade-down") Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
   .container.bg-white.p-4.p-md-5.container-bottom.mg-top
-    .tarjeta.p-2.col-12.pos12.gris(data-aos="fade-down")
-      SlyderA(tipo="b")
-        img(src='@/assets/curso/images/tema2/img_4_1.png', alt='Texto que describa la imagen')
+
+    .tarjeta.col-md-12.col-12.pos12.gris.mb-5
+      SlyderA(tipo="b")(data-aos="fade-left")
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema2/1.png').m-auto
         
-        img(src='@/assets/curso/images/tema2/img_5_1.png', alt='Texto que describa la imagen')
+          .col-lg-7.align-items-center
+            h5 Kanban
+              p.mt-3 Palabra de origen japonés que significa “tarjetas visuales”. Con este método se consigue mostrar siempre visualmente el estado del proyecto a todo el equipo involucrado.
+          
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema2/2.png').m-auto
+          .col-lg-7.align-items-center
+            h5 <i> Lean software development </i>
+              p.mt-3 Posee tres objetivos: reducir tiempos de entrega, reducir precios y costos, reducir número de defectos o <i> bugs </i> (dar calidad). 
+        
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema2/3.png').m-auto
+        
+          .col-lg-7.align-items-center
+            h5 <i> Dynamic Systems Development Method </i>
+              p.mt-3 Considerado uno de los marcos más extendidos de trabajo; propone fases de estudio, viabilidad del proyecto, estudio del negocio, iteraciones del modelo, iteraciones para creación del diseño, desarrollo del producto, iteraciones para implementación.
+          
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema2/4.png').m-auto
+          .col-lg-7.align-items-center
+            h5 <i> Programación extrema XP </i>
+              p.mt-3 Método muy útil para abordar proyectos de software con escasos requisitos o cambiantes.
 
-        img(src='@/assets/curso/images/tema2/img_6_1.png', alt='Texto que describa la imagen')
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema2/5.png').m-auto
+          .col-lg-7.align-items-center
+            h5 <i> Feature drivemen development </i>
+              p.mt-3 Desarrollo orientado hacia la funcionalidad. Método ágil orientado al desarrollo de sistemas informáticos; centrado solamente en fases de diseño y construcción.
 
-        img(src='@/assets/curso/images/tema2/img_7_1.png', alt='Texto que describa la imagen')
+        .row.fondo-slyder
+          .col-lg-5.col-7.center
+            figure
+              img.p-y-1(src='@/assets/curso/images/tema2/6.png').m-auto
+          .col-lg-7.align-items-center
+            h5 <i> Feature drivemen development </i>
+              p.mt-3 Desarrollo orientado hacia la funcionalidad. Método ágil orientado al desarrollo de sistemas informáticos; centrado solamente en fases de diseño y construcción.
 
-        img(src='@/assets/curso/images/tema2/img_8_1.png', alt='Texto que describa la imagen')
-
-        img(src='@/assets/curso/images/tema2/img_9_1.png', alt='Texto que describa la imagen')
 
   
 
