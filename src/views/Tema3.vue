@@ -45,34 +45,34 @@
             figure
               img(src="@/assets/curso/images/tema3/img_3.svg")
               
-          .tarjeta.color-infografica-1.p-2(x="5%" y="42%"  numero="+" )
+          .tarjeta.color-infografica-1(x="5%" y="42%"  numero="+" )
             .row.justify-content-center.mb-3  
-              .col-8
-                h3 Comunicación: 
+              .col-10
+                h3.mt-3 Comunicación: 
                 p  Acción permanente de encuentro e intercambio entre desarrolladores y el cliente; ello favorece evitar errores e inconvenientes. 
 
-          .tarjeta.color-infografica-1.p-2(x="37%" y="61%"  numero="+" )
+          .tarjeta.color-infografica-1(x="37%" y="61%"  numero="+" )
             .row.justify-content-center.mb-3  
-              .col-8
-                h3 Simplicidad:
+              .col-10
+                h3.mt-3 Simplicidad:
                 p  El trabajo debe hacerse de la forma más simple posible. El diseño y el código debe ser simple, pero correcto, eliminando redundancias.
 
-          .tarjeta.color-infografica-1.p-2(x="55%" y="38%"  numero="+")
+          .tarjeta.color-infografica-1(x="55%" y="38%"  numero="+")
             .row.justify-content-center.mb-3  
-              .col-8
-                h3 Feedback:  
+              .col-10
+                h3.mt-3 Feedback:  
                 p Combinación de reacciones, comentarios, sugerencias, observaciones, etc.; por eso debe existir comunicación constante entre los roles del equipo y del equipo con el cliente.
           
-          .tarjeta.color-infografica-1.p-2(x="64%" y="62%" numero="+" )
+          .tarjeta.color-infografica-1(x="64%" y="62%" numero="+" )
             .row.justify-content-center.mb-3      
-              .col-8
-                h3 Coraje:
+              .col-10
+                h3.mt-3 Coraje:
                 p Se necesita valentía para establecer comunicación asertiva, así mismo, para afrontar cambios y transformaciones del producto o del trabajo mismo. 
 
-          .tarjeta.color-infografica-1.p-2(x="85%" y="42%" numero="+" )
+          .tarjeta.color-infografica-1(x="85%" y="42%" numero="+" )
             .row.justify-content-center.mb-3      
-              .col-8
-                h3 Respeto:
+              .col-10
+                h3.mt-3 Respeto:
                 p Debe existir respeto en todas las formas y en todas las direcciones. Opiniones, personas, equipos, objetivos, métodos, aportes, etc.  
     Separador 
   .container.bg-white.p-4.p-md-5.container-bottom.mg-top
@@ -94,7 +94,7 @@
     #t_3_3.titulo-segundo
       .h2 3.3 Las prácticas XP
 
-    .row.justify-content-center.align-items-start.mb-5
+    .row.justify-content-star.align-items-start.mb-5
       .col-12.col-lg-7(data-aos="fade-right")
         p.mb-3 Para lograr concretar los valores y llevarlos a la práctica es necesario relacionarlos con algunos principios útiles para el desarrollo. Al igual que los valores, los principios pueden ser muchos según la organización, el tipo de desarrollo o producto, etc.; los principios pueden ser establecidos dependiendo del sistema de software de la empresa.
 
@@ -103,7 +103,7 @@
         img(src="@/assets/curso/images/tema3/img_5.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
 
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5
       .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-down")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .indicador--hover(v-if="indicadorTarjetaFlip")
@@ -114,18 +114,18 @@
                 h3 Primarias
             .tarjeta-flip__contenido.bgr_3.p-5
               h3.text-center.text-white Primarias
-              p.text-white.mt-3 Las prácticas primarias se realizan de manera independiente y aportan valor inmediato al producto, ayudan a mejorar el desarrollo del <i>software.</i>
+              p.text-white.mt-5 Las prácticas primarias se realizan de manera independiente y aportan valor inmediato al producto, ayudan a mejorar el desarrollo del <i>software.</i>
 
-      .col-sm-6.col-xl-3.mb-4-xl-0.mb-4(data-aos="fade-down")
+      .col-sm-6.col-xl-3.mb-4-xl-0.mb-4.mt-4(data-aos="fade-down")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
             .tarjeta-flip__img.bgr_2.align-items-center
               figure.justify-center
                 img.img250.p-2(src='@/assets/curso/images/tema3/ico_2.svg', alt='imagen 1-2').ms-4
                 h3.text-center Corolario
-            .tarjeta-flip__contenido.bgr_2.p-5
+            .tarjeta-flip__contenido.bgr_3.p-5
               h3.text-center.text-white  Corolario
-              p.text-white.mt-5 Para las prácticas corolario es necesario tener experiencia en la aplicación de las prácticas primarias. 
+              p.text-white.mt-5.mb-5 Para las prácticas corolario es necesario tener experiencia en la aplicación de las prácticas primarias. 
     
       .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-down")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -134,18 +134,18 @@
               figure.justify-center
                 img.img250.p-2(src='@/assets/curso/images/tema3/ico_3.svg', alt='imagen 1-2')
                 h3.text-center Prácticas conexas entre sí
-            .tarjeta-flip__contenido.bgr_3.p-5.p-xl-5
+            .tarjeta-flip__contenido.bgr_3.p-5
               h3.text-center.text-white Prácticas conexas entre sí
               p.text-white.mt-5 Las prácticas corolario se deben realizar cuando las primarias ya han sido incorporadas al trabajo
 
       .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-down")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor
-            .tarjeta-flip__img.bgr_2.align-items-center
+            .tarjeta-flip__img.bgr_2.align-items-center.p-3
               figure.justify-center
                 img.img250.p-2(src='@/assets/curso/images/tema3/ico_4.svg', alt='imagen 1-2')
                 h3.text-center-1 Excepcionalidades de la prácticas
-            .tarjeta-flip__contenido.bgr_3.p-5.p-xl-5
+            .tarjeta-flip__contenido.bgr_3.p-5
               h3.text-white Excepcionalidades de la prácticas
               p.text-white.mt-5 Una de las prácticas corolario propone reducir los integrantes del equipo, práctica peligrosa si no se respeta el rimo del equipo.
     

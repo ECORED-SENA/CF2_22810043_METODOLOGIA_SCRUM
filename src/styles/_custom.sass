@@ -60,7 +60,7 @@
   @media (max-width: 992px)
     width: 260px
     height: 240px
-    margin-left: 90px
+    margin-left: 50px
 .color-tarjeta-2
   background-color: #0CCBC3
   border-top-right-radius: 2rem
@@ -71,7 +71,7 @@
   @media (max-width: 992px)
     width: 260px
     height: 240px
-    margin-left: 100px
+    margin-left: 64px
 .titulo-segundo::after 
   content: ''
   display: block
@@ -86,18 +86,18 @@
 .tarjeta.color-infografica
   background-color: #BAEAE8
   width: 260px
-  height: 150px
+  height: 170px
   display: flexbox
   margin-top: -3rem
   @media (max-width: 992px)
     width: 360px
     height: 150px
     margin-left: -70px
-    margin-bottom: -1rem
+    margin-top: -3rem
 .tarjeta.color-infografica-1
   background-color: #E5ECFF
-  width: 200px
-  height: 365px
+  width: 190px
+  height: 310px
   display: flexbox
   font-size: 16px
   @media (max-width: 992px)
@@ -105,18 +105,40 @@
     height: 225px
     margin-left: -50px
     margin-bottom: -16rem
+.tarjeta.color-infografica-2
+  background-color: #BAEAE8
+  width: 260px
+  height: 310px
+  display: flexbox
+  margin-top: -3rem
+  @media (max-width: 992px)
+    width: 360px
+    height: 225px
+    margin-left: -70px
+    margin-top: -1rem
 .tarjeta.tarjeta-flip
   background-color: #E5ECFF
   width: 280px
   height: 365x
   display: flexbox
   @media (max-width: 992px)
-    margin-right: 85px
+    margin-left: 85px
 .tarjeta.tarjeta-flip-1
   width: 280px
   height: 365x
   display: flexbox
 
+.slyder-a__bullets__item 
+  width: 15px
+  height: 15px
+  background-color: #fff
+  border-radius: 50%
+  box-shadow: 0 0 5px 0px rgba(0, 0, 0, 0)
+  margin: 0 10px
+  cursor: pointer
+  opacity: 0.7
+  transition: opacity 0.3s ease-in-out, box-shadow 0.3s ease-in-out
+  border: 1px solid #888
 
 
 
@@ -133,7 +155,7 @@
   background-image: url('../assets/curso/images/tema1/back_slyder.svg')
   background-size: cover
   background-repeat: no-repeat
-  padding: 1.5rem
+  padding: 3rem
 
 .fondo-slyder-2
   background-image: url('../assets/curso/images/tema1/fondo_slyder.svg')
@@ -259,7 +281,7 @@
 .container-top
   border-radius: 20px 20px 0 0
 .container-bottom
-  border-radius: 0 0 20px 20px
+  border-radius: 0 0 0px 0px
 
 .bg-tema1
   background-image: url('../assets/curso/images/tema4/back_6.png')
@@ -281,19 +303,23 @@
     left: 0
     top: 0
 .mg-top
-  margin-top: -60px
+  margin-top: -48px
 .flip
   color: #0043FF
 .img250
   max-width: 200px !important
 .bgr
   background-color: #E6F1FF
-  max-width: 400px !important
+  max-width: 350px !important
   &_2
     background-color: #0CCBC3 !important
-    height: 100%
+    height: 350px !important
   &_3
     background-color: #0043FF !important
+    height: 350px !important
+  &_4
+    background-color: #0043FF !important
+    height: 250px !important
 .justify-center
   display: flex
   flex-wrap: wrap
@@ -345,6 +371,9 @@
   background-color: #3740A5
 .pos12
   margin: 0 auto
+
+.mg-x
+  margin-left: 50px
 
 .gris
  background-color: #F4F4F4

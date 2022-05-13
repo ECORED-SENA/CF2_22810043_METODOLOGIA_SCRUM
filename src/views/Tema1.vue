@@ -25,7 +25,7 @@
             .tarjeta-flip__img
               figure.justify-center
                 img.img250.mt-4(src='@/assets/curso/images/tema1/img_2.svg', alt='imagen 1-2')
-            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+            .tarjeta-flip__contenido.bgr_4.p-4.p-xl-5
               p.text-white   1. Al inicio de un <i>sprint</i> han de seleccionarse los elementos del product backlog por desarrollar.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-down")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
@@ -33,7 +33,7 @@
             .tarjeta-flip__img
               figure.justify-center
                 img.img250.mt-4(src='@/assets/curso/images/tema1/img_3.svg', alt='imagen 1-2')
-            .tarjeta-flip__contenido.bgr_3.p-4.p-xl-5
+            .tarjeta-flip__contenido.bgr_4.p-4.p-xl-5
               p.text-white 2. Estas actividades se ejecutarán ajustadas a la velocidad del equipo, aportando mucho valor al producto.
 
     Separador 
@@ -68,31 +68,31 @@
           .tarjeta.color-infografica.p-2(x="31%" y="6%"  numero="+" )
             .row.justify-content-center.mb-3  
               .col-10
-                h3 1. <i>Sprint planning</i>
+                h3.mt-3 1. <i>Sprint planning</i>
                 p.mb-0  Se trata de la planeación del <i>sprint.</i>
 
           .tarjeta.color-infografica.p-2(x="86%" y="18%"  numero="+" )
             .row.justify-content-center.mb-3  
               .col-10
-                h3 2. Daily meeting
+                h3.mt-3 2. Daily meeting
                 p Se trata de la reunión diaria con el <i>Development Team</i> (DT).
 
           .tarjeta.color-infografica.p-2(x="92%" y="72%"  numero="+")
             .row.justify-content-center.mb-3  
               .col-10
-                h3 3. <i>Grooming</i>
+                h3.mt-3 3. <i>Grooming</i>
                 p Varias reuniones de refinamiento, necesarias para resolver inquietudes y continuar con el otro <i>sprint.</i>
           
           .tarjeta.color-infografica.p-2(x="10%" y="75%" numero="+" )
             .row.justify-content-center.mb-3      
               .col-10
-                h3 4. <i>Sprint review</i>
+                h3.mt-3 4. <i>Sprint review</i>
                 p Se realiza para entregar el producto acabado.
 
           .tarjeta.color-infografica.p-2(x="10%" y="24%"  numero="+" )
             .row.justify-content-center.mb-3  
               .col-10
-                h3 5. <i>Sprint retrospective</i>
+                h3.mt-3 5. <i>Sprint retrospective</i>
                 p Se utiliza para favorecer la mejora continua en el equipo.
 
   .container.bg-white.p-4.p-md-5.container-bottom.mg-top

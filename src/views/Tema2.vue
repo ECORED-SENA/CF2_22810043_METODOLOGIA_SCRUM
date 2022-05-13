@@ -34,25 +34,25 @@
               img(src="@/assets/curso/images/tema2/img_2.svg")
               
 
-          .tarjeta.color-infografica.p-4(x="28%" y="45%"  numero="+" )
+          .tarjeta.color-infografica-2.p-4(x="28%" y="45%"  numero="+" )
             .row.justify-content-center.mb-3  
               .col-12
                 h3 1. Valorar individuos y sus interacciones frente a procesos y herramientas
                 p  Todas las ayudas, junto con las personas, son importantes y debe trabajarse con la ayuda de procesos.
 
-          .tarjeta.color-infografica.p-3(x="37%" y="24%"  numero="+" )
+          .tarjeta.color-infografica-2.p-3(x="37%" y="24%"  numero="+" )
             .row.justify-content-center.mb-3  
               .col-12
                 h3 2. Valorar más el software que funciona, que una documentación exhaustiva
                 p Siempre es más importante el producto; esto no quiere decir que la documentación no sea importante, pero se deben tener prioridades.
 
-          .tarjeta.color-infografica.p-3(x="72%" y="32%"  numero="+")
+          .tarjeta.color-infografica-2.p-3(x="72%" y="32%"  numero="+")
             .row.justify-content-center.mb-3  
               .col-12
                 h3 3. Valorar más la colaboración con el cliente que la negociación de un contrato
                 p La idea es establecer un marco de colaboración y de confianza con el usuario. Los intereses han de ser comunes; entender al cliente y satisfacer sus necesidades es lo importante.
           
-          .tarjeta.color-infografica.p-3(x="68%" y="69%" numero="+" )
+          .tarjeta.color-infografica-2.p-3(x="68%" y="69%" numero="+" )
             .row.justify-content-center.mb-3      
               .col-12
                 h3 4. Valorar más la respuesta al cambio que el seguimiento de un plan
@@ -84,7 +84,7 @@
               img.p-y-1(src='@/assets/curso/images/tema2/1.png').m-auto
         
           .col-lg-7.align-items-center
-            h5 Kanban
+            h5.mt-5 Kanban
               p.mt-3 Palabra de origen japonés que significa “tarjetas visuales”. Con este método se consigue mostrar siempre visualmente el estado del proyecto a todo el equipo involucrado.
           
         .row.fondo-slyder
@@ -101,7 +101,7 @@
               img.p-y-1(src='@/assets/curso/images/tema2/3.png').m-auto
         
           .col-lg-7.align-items-center
-            h5 <i> Dynamic Systems Development Method </i>
+            h5.mt-5 <i> Dynamic Systems Development Method </i>
               p.mt-3 Considerado uno de los marcos más extendidos de trabajo; propone fases de estudio, viabilidad del proyecto, estudio del negocio, iteraciones del modelo, iteraciones para creación del diseño, desarrollo del producto, iteraciones para implementación.
           
         .row.fondo-slyder
@@ -109,7 +109,7 @@
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/4.png').m-auto
           .col-lg-7.align-items-center
-            h5 <i> Programación extrema XP </i>
+            h5.mt-5 <i> Programación extrema XP </i>
               p.mt-3 Método muy útil para abordar proyectos de software con escasos requisitos o cambiantes.
 
         .row.fondo-slyder
@@ -117,7 +117,7 @@
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/5.png').m-auto
           .col-lg-7.align-items-center
-            h5 <i> Feature drivemen development </i>
+            h5.mt-5 <i> Feature drivemen development </i>
               p.mt-3 Desarrollo orientado hacia la funcionalidad. Método ágil orientado al desarrollo de sistemas informáticos; centrado solamente en fases de diseño y construcción.
 
         .row.fondo-slyder
@@ -125,7 +125,7 @@
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/6.png').m-auto
           .col-lg-7.align-items-center
-            h5 <i> Feature drivemen development </i>
+            h5.mt-5 <i> Feature drivemen development </i>
               p.mt-3 Desarrollo orientado hacia la funcionalidad. Método ágil orientado al desarrollo de sistemas informáticos; centrado solamente en fases de diseño y construcción.
 
 
