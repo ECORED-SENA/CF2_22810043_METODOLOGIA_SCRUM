@@ -218,6 +218,14 @@
         .col-md-6
           figure
             img(src='@/assets/curso/images/tema3/img_8.svg', alt='Texto que describa la imagen')
+
+   
+          p El <i>Sprint</i> 0 se relaciona con la fase inicial del proyecto, cuando el <i>Scrum Team</i> realiza la planeación inicial y define las reglas. De igual forma, se utiliza para entregar un pequeño ejemplo que evoluciona y permite llegar al <i>Sprint 1.</i>
+      
+        .col-md-6
+          figure
+            img(src='@/assets/curso/images/tema1/ico_1.svg', alt='Texto que describa la imagen')
+    
     
 </template>
 

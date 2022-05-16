@@ -128,6 +128,15 @@
   height: 365x
   display: flexbox
 
+.tarjeta.tarjeta-flip-2
+  background-color: #E5ECFF
+  width: 280px
+  height: 365x
+  display: flexbox
+  @media (max-width: 992px)
+    margin-left: 85px
+
+
 .slyder-a__bullets__item 
   width: 15px
   height: 15px
@@ -179,40 +188,64 @@
   left: 489px
   width: 91px
   z-index: 1
-  @media (max-width: 980px)
+  @media (max-width: 300px)
     top: 35px
     left: 74px
+
+.position-2
+  position: absolute
+  top: 36px
+  left: 489px
+  width: 91px
+  z-index: 1
+  @media (max-width: 980px)
+    top: 35px
+    left: 17px
 
 .botom
   z-index: 0
   @media (max-width: 980px)
     margin-left: 8rem !important
 
+.aling-0
+  @media (max-width: 992px)
+    margin-right: 90px
+
 .aling-1
   text-align: left  !important
   margin-top: 5rem
   margin-left: 2.5rem
   white-space: 10px
+
 .aling-2
   text-align: left  !important
   margin-top: 11rem
   margin-left: -1.5rem
   white-space: 10px
+
 .aling-3
   text-align: left  !important
   margin-top: 7rem
   margin-left: 1.5rem
   white-space: 10px
+
 .aling-4
   text-align: left  !important
   margin-top: 5rem
   margin-left: 1.5rem
   white-space: 10px
+
 .aling-5
   text-align: left  !important
   margin-left: -5.5rem
+
+.aling-6
+  @media (max-width: 442px)
+    margin-right: 9rem
+
 .text-center 
   text-align: left !important
+
 .text-center-1
   text-align: center !important
   font-size: 18px
@@ -299,10 +332,10 @@
   background-image: url('../assets/curso/images/tema3/back_2.png')
   background-size: cover
   background-repeat: no-repeat
-  @media (max-width: 420px)
-    left: 0
+  @media (max-width: 992px)
+    right: 0
     top: 0
-.mg-top
+   
   margin-top: -48px
 .flip
   color: #0043FF

@@ -18,8 +18,8 @@
     p.mb-5.text-center Preste atención a estos dos aspectos que son de  suma importancia:
 
   
-    .row.justify-content-center.align-items-center.mb-5.fondo-2
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0.px-4(data-aos="fade-down")
+    .row.justify-content-center.align-items-center.my-5.fondo-2
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.px-4.aling-0(data-aos="fade-down")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor.color-tarjeta-1
             .tarjeta-flip__img
@@ -27,7 +27,7 @@
                 img.img250.mt-4(src='@/assets/curso/images/tema1/img_2.svg', alt='imagen 1-2')
             .tarjeta-flip__contenido.bgr_4.p-4.p-xl-5
               p.text-white   1. Al inicio de un <i>sprint</i> han de seleccionarse los elementos del product backlog por desarrollar.
-      .col-sm-6.col-xl-3.mb-4.mb-xl-0(data-aos="fade-down")
+      .col-sm-6.col-xl-3.mb-4.mb-xl-0.aling-0(data-aos="fade-down")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor.color-tarjeta-2
             .tarjeta-flip__img
@@ -98,7 +98,7 @@
   .container.bg-white.p-4.p-md-5.container-bottom.mg-top
     
     .row.justify-content-center.align-items-center.position-relative.mb-5
-      img.position(src='@/assets/curso/images/tema1/ico_2.svg',  alt="",)
+      img.position-1(src='@/assets/curso/images/tema1/ico_2.svg',  alt="",)
       .col-auto
     a.boton.color-acento-contenido.indicador__container.botom(@click="modal1 = true")
       span <i>¡Importante!</i> 
@@ -134,42 +134,43 @@
 
         p.mb-3 El <i>sprint planning</i> se divide en dos: el qué (what) y el cómo (how). A continuación, se detallan las particularidades de cada una de estas subdivisiones y otros elementos importantes relacionados:
     
-    .tarjeta.col-md-12.col-12.pos12.gris.mb-5
-      SlyderA(tipo="b")(data-aos="fade-left")
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
-            figure
-              img.p-y-1(src='@/assets/curso/images/tema1/1.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
-        
-          .col-lg-7.align-items-center
-            h5.aling-1 <i> How </i> (¿Cómo se hará?)
-              p.mt-3 Se hace el desglose de las historias de usuario <i> (user histories) </i>, participan: el equipo de desarrollo <i> (Development Team) </i>, el <i> Scrum Master </i> (SM) y, si se quiere se invita al <i> Product Owner </i> (PO).
+    .row.justify-content-center.align-items-center.mb-5
+      .tarjeta.col-md-12.col-12.pos12.gris.mb-5
+        SlyderA(tipo="b")(data-aos="fade-left")
+          .row.justify-content-evenly.fondo-slyder
+            .col-lg-4.col-7.center
+              figure
+                img.p-y-1(src='@/assets/curso/images/tema1/1.png', alt='AvatarTop', style="width:350px;")
           
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
-            figure
-              img.p-y-1(src='@/assets/curso/images/tema1/2.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
-          .col-lg-7.align-items-center
-            h5.aling-1 <i> What </i> (¿Qué se hará?)
-              p.mt-3 Es el detalle de la funcionalidad. Participa el Scrum Team y a veces, el cliente.
-        
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
-            figure
-              img.p-y-1(src='@/assets/curso/images/tema1/3.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
-        
-          .col-lg-7.align-items-center
-            h5  Importancia del <i> sprint planning </i>
-              p.mt-3 Es muy importante, porque es allí donde el <b> DT </b> recoge y planifica el trabajo para el #[ span <i> sprint </i>]. Se tiene que proponer una metodología predictiva, puesto que no existe documentación. La comunicación entre todos debe ser fluida y dinámica. 
+            .col-lg-7.align-items-center
+              h5.aling-1 <i> How </i> (¿Cómo se hará?)
+                p.mt-3 Se hace el desglose de las historias de usuario <i> (user histories) </i>, participan: el equipo de desarrollo <i> (Development Team) </i>, el <i> Scrum Master </i> (SM) y, si se quiere se invita al <i> Product Owner </i> (PO).
+            
+          .row.justify-content-evenly.fondo-slyder
+            .col-lg-4.col-7.center
+              figure
+                img.p-y-1(src='@/assets/curso/images/tema1/2.png', alt='AvatarTop', style="width:350px;")
+            .col-lg-7.align-items-center
+              h5.aling-1 <i> What </i> (¿Qué se hará?)
+                p.mt-3 Es el detalle de la funcionalidad. Participa el Scrum Team y a veces, el cliente.
           
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
-            figure
-              img.p-y-1(src='@/assets/curso/images/tema1/4.png', alt='AvatarTop', style="width:350px; display:block; margin:auto 2rem;").m-auto
-          .col-lg-7.align-items-center
-            h5 El <i> sprint planning </i> y las <i> user histories </i>
-              p.mt-3 Las historias de usuario del <i> product backlog </i> cambian, y es posible que se recalculen de nuevo; entonces será necesario volver a priorizarlas.
+          .row.justify-content-evenly.fondo-slyder
+            .col-lg-4.col-7.center
+              figure
+                img.p-y-1(src='@/assets/curso/images/tema1/3.png', alt='AvatarTop', style="width:350px;")
           
+            .col-lg-6.align-items-center
+              h5  Importancia del <i> sprint planning </i>
+                p.mt-3 Es muy importante, porque es allí donde el <b> DT </b> recoge y planifica el trabajo para el #[ span <i> sprint </i>]. Se tiene que proponer una metodología predictiva, puesto que no existe documentación. La comunicación entre todos debe ser fluida y dinámica. 
+            
+          .row.justify-content-evenly.fondo-slyder
+            .col-lg-4.col-7.center
+              figure
+                img.p-y-1(src='@/assets/curso/images/tema1/4.png', alt='AvatarTop', style="width:350px;")
+            .col-lg-7.align-items-center
+              h5 El <i> sprint planning </i> y las <i> user histories </i>
+                p.mt-3 Las historias de usuario del <i> product backlog </i> cambian, y es posible que se recalculen de nuevo; entonces será necesario volver a priorizarlas.
+            
     
     
     Separador 

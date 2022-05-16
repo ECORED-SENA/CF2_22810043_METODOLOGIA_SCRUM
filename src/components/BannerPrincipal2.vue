@@ -53,6 +53,8 @@ export default {
   padding-left: 95px  !important
   margin-top: 20px
   z-index: 3
+  @media (max-width: 992px)
+    margin-right: 90px
 .banner-principal
   p, h1, h2, h3, h4, h5, h6
     color: $color-banner-text
@@ -62,6 +64,7 @@ export default {
     background-size: cover
     background-position: center
     height: 28rem
+
 
   &__info
     display: flex
