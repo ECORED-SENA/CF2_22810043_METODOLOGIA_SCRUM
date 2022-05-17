@@ -100,7 +100,7 @@
     .row.justify-content-center.align-items-center.position-relative.mb-5
       img.position-1(src='@/assets/curso/images/tema1/ico_2.svg',  alt="",)
       .col-auto
-    a.boton.color-acento-contenido.indicador__container.botom(@click="modal1 = true")
+    a.botom-1.boton.color-acento-contenido.indicador__container.botom(@click="modal1 = true")
       span <i>¡Importante!</i> 
       .indicador--click(v-if="mostrarIndicador")
       .col

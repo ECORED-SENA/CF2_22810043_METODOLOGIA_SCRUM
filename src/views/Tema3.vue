@@ -202,7 +202,7 @@
         img(src="@/assets/curso/images/tema3/img_6.svg")
 
     .row.justify-content-center.align-items-center.position-relative.mb-5
-      img.position-1(src='@/assets/curso/images/tema1/ico_2.svg',  alt="",)
+      img.position-2(src='@/assets/curso/images/tema1/ico_2.svg',  alt="",)
       .col-auto
     a.boton.color-acento-contenido.indicador__container.botom(@click="modal1 = true")
       span <i>Complemento entre métodos</i>
