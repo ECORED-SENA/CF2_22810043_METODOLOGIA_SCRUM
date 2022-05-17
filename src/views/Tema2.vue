@@ -78,8 +78,8 @@
 
     .tarjeta.col-md-12.col-12.pos12.gris.mb-5
       SlyderA(tipo="b")(data-aos="fade-left")
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
+        .row.justify-content-evenly.fondo-slyder
+          .col-lg-4.col-7.center
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/1.png').m-auto
         
@@ -87,16 +87,16 @@
             h5.mt-5 Kanban
               p.mt-3 Palabra de origen japonés que significa “tarjetas visuales”. Con este método se consigue mostrar siempre visualmente el estado del proyecto a todo el equipo involucrado.
           
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
+        .row.justify-content-evenly.fondo-slyder
+          .col-lg-4.col-7.center
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/2.png').m-auto
           .col-lg-7.align-items-center
             h5 <i> Lean software development </i>
               p.mt-3 Posee tres objetivos: reducir tiempos de entrega, reducir precios y costos, reducir número de defectos o <i> bugs </i> (dar calidad). 
         
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
+        .row.justify-content-evenly.fondo-slyder
+          .col-lg-4.col-7.center
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/3.png').m-auto
         
@@ -104,24 +104,24 @@
             h5.mt-5 <i> Dynamic Systems Development Method </i>
               p.mt-3 Considerado uno de los marcos más extendidos de trabajo; propone fases de estudio, viabilidad del proyecto, estudio del negocio, iteraciones del modelo, iteraciones para creación del diseño, desarrollo del producto, iteraciones para implementación.
           
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
+        .row.justify-content-evenly.fondo-slyder
+          .col-lg-4.col-7.center
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/4.png').m-auto
           .col-lg-7.align-items-center
             h5.mt-5 <i> Programación extrema XP </i>
               p.mt-3 Método muy útil para abordar proyectos de software con escasos requisitos o cambiantes.
 
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
+        .row.justify-content-evenly.fondo-slyder
+          .col-lg-4.col-7.center
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/5.png').m-auto
           .col-lg-7.align-items-center
             h5.mt-5 <i> Feature drivemen development </i>
               p.mt-3 Desarrollo orientado hacia la funcionalidad. Método ágil orientado al desarrollo de sistemas informáticos; centrado solamente en fases de diseño y construcción.
 
-        .row.fondo-slyder
-          .col-lg-5.col-7.center
+        .row.justify-content-evenly.fondo-slyder
+          .col-lg-4.col-7.center
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/6.png').m-auto
           .col-lg-7.align-items-center
