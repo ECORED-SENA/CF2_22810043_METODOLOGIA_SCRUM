@@ -166,7 +166,9 @@
   background-repeat: no-repeat
   padding: 3rem
   margin-left: 5px
-  
+  @media screen and (max-width: $bp-max-xs)
+    padding: 1rem 0rem 0rem 0rem;
+    background-image: none
 
 .fondo-slyder-2
   background-image: url('../assets/curso/images/tema1/fondo_slyder.svg')
@@ -458,7 +460,11 @@
 .cs
   overflow-y: hidden
 
-
+.slyder-a.tema2 .slyder-a__bullets__item
+  @media screen and (max-width: $bp-max-xs)
+    height: 22px
+    width: 22px
+    margin: 0 6px
 
 
 

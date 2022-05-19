@@ -77,7 +77,7 @@
   .container.bg-white.p-4.p-md-5.container-bottom.mg-top
 
     .tarjeta.col-md-12.col-12.pos12.gris.mb-5
-      SlyderA(tipo="b")(data-aos="fade-left")
+      SlyderA.tema2(tipo="b")(data-aos="fade-left")
         .row.justify-content-evenly.fondo-slyder
           .col-lg-4.col-7.center
             figure
