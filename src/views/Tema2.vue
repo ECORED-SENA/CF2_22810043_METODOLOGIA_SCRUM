@@ -11,7 +11,7 @@
       .col-lg-6.md-5(data-aos="fade-right")
         img(src="@/assets/curso/images/tema2/img_1.jpg" alt='AvatarTop').m-auto
       .col-lg-6.md-5(data-aos="fade-left")
-          p.mb-3 La incertidumbre por la falta de respuesta en los proyectos de desarrollo es muy común y por esto, se empiezan a proponer ciertos tipos de metodologías ágiles. En 1986 Nonaka y Takeuchi destacaron la forma de trabajar en la que un equipo acoge las diferentes fases, así como en un juego de Rugby, afrontando un Scrum, orientados hacia un mismo camino y a la par.
+          p.mb-3 La incertidumbre por la falta de respuesta en los proyectos de desarrollo es muy común y por esto, se empiezan a proponer ciertos tipos de metodologías ágiles. En 1986 Nonaka y Takeuchi destacaron la forma de trabajar en la que un equipo acoge las diferentes fases, así como en un juego de <i> Rugby </i>, afrontando un <i> Scrum, </i> orientados hacia un mismo camino y a la par.
 
           p.mb-0 Por definición y naturaleza una metodología ágil es aquella que favorece la aceleración de los procesos en un proyecto o desarrollo, gracias a que permite adaptaciones a las maneras y formas de trabajo, a los tiempos, a los roles, a las condiciones mismas del producto o proyecto, etc.
   
@@ -72,8 +72,7 @@
         img(src="@/assets/curso/images/tema2/img_3.png" alt="", style="width:450px; display:block; margin: 0 auto;")
     
     p.mb-3(data-aos="fade-down") Se presentan algunos de los métodos ágiles más utilizados en los proyectos de desarrollo de <i>software</i>; analice los elementos constitutivos de cada uno y los aspectos diferenciadores entre ellos:
-
-    p.mb-4(data-aos="fade-down") Es el uso locutor + acompañamiento de imágenes como fondo, el estilo tiene una mezcla entre imagen viva y recursos gráficos vectoriales  se usa cuando un material tiene información de datos numéricos o gráficos de valores. 
+    
   .container.bg-white.p-4.p-md-5.container-bottom.mg-top
 
     .tarjeta.col-md-12.col-12.pos12.gris.mb-5
@@ -84,7 +83,7 @@
               img.p-y-1(src='@/assets/curso/images/tema2/1.png').m-auto
         
           .col-lg-7.align-items-center
-            h5.mt-5 Kanban
+            h5.mt-5 <i> Kanban </i>
               p.mt-3 Palabra de origen japonés que significa “tarjetas visuales”. Con este método se consigue mostrar siempre visualmente el estado del proyecto a todo el equipo involucrado.
           
         .row.justify-content-evenly.fondo-slyder
@@ -110,7 +109,7 @@
               img.p-y-1(src='@/assets/curso/images/tema2/4.png').m-auto
           .col-lg-7.align-items-center
             h5.mt-5 <i> Programación extrema XP </i>
-              p.mt-3 Método muy útil para abordar proyectos de software con escasos requisitos o cambiantes.
+              p.mt-3 Método muy útil para abordar proyectos de <i> software </i> con escasos requisitos o cambiantes.
 
         .row.justify-content-evenly.fondo-slyder
           .col-lg-4.col-7.center
@@ -125,8 +124,8 @@
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/6.png').m-auto
           .col-lg-7.align-items-center
-            h5.mt-5 <i> Feature drivemen development </i>
-              p.mt-3 Desarrollo orientado hacia la funcionalidad. Método ágil orientado al desarrollo de sistemas informáticos; centrado solamente en fases de diseño y construcción.
+            h5.mt-5 <i> Scrum </i>
+              p.mt-3 Propone un marco de trabajo que da soporte a la innovación. Se obtienen rersultados con calidad y con iteraciones cortas (<i> Sprints </i>). Es el más usado.
 
 
   

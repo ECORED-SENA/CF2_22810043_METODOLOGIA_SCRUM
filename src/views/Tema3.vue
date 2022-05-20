@@ -16,13 +16,13 @@
       .col-12.col-lg-10(data-aos="fade-down")
         p.mb-3 Este proceso plantea una convivencia latente con la incertidumbre; de esta forma, el proceso se adapta a los cambios y a la variabilidad. En XP son naturales las transformaciones; la adaptación consiste, desde esta mirada, en ser capaces de laborar en entornos siempre cambiantes, siempre inciertos.
         .cajon.color-custom-1.p-4.mb-4(data-aos="fade-down")
-          p Este proceso plantea una convivencia latente con la incertidumbre; de esta forma, el proceso se adapta a los cambios y a la variabilidad. En XP son naturales las transformaciones; la adaptación consiste, desde esta mirada, en ser capaces de laborar en entornos siempre cambiantes, siempre inciertos.
+          p De esta manera, en XP se relacionan muchas practicas que se aplican de forma simultanea y realimentadas entre ellas. esta practica sigue evolucionando constantemente, por ello cada ve se incorporan nuevas prácticas en su formato. 
         p.mb-3(data-aos="fade-down") Profundice en las generalidades y aspectos constitutivos de la programación XP; preste atención al recurso que se muestra a continuación:
 
     figure
       .video.mb-3(data-aos="fade-down")
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6qCkRARKt00" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        
     Separador
   .container.bg-white.p-4.p-md-5.fondo-1.mg-top
     #t_3_1.titulo-segundo
@@ -32,7 +32,7 @@
       .col-lg-7.md-5(data-aos="fade-right")
           p.mb-3 Se trata de aquellos principios que regulan los procesos, acciones, actividades, fases y funcionamiento de los roles dentro de un proyecto o desarrollo de producto. Para efectivizar los valores XP debe existir una unión entre pensamientos y prácticas en el día a día; ello dará las pautas para configurar la identidad del trabajo mismo, incluso, del producto final.
           .cajon.color-custom-2.p-4.mb-4
-           p Los valores que orientan el desarrollo en XP son la simplicidad, la comunicación, el feedback, el respeto, la valentía, la calidad de vida y demás valores que se quieran adicionar en cada organización. 
+           p Los valores que orientan el desarrollo en XP son la simplicidad, la comunicación, el <i> feedback </i>, el respeto, la valentía, la calidad de vida y demás valores que se quieran adicionar en cada organización. 
       .col-lg-5.md-5(data-aos="fade-left")
         img(src="@/assets/curso/images/tema3/img_2.jpg").m-auto
     
@@ -60,7 +60,7 @@
           .tarjeta.color-infografica-1(x="55%" y="38%"  numero="+")
             .row.justify-content-center.mb-3  
               .col-10
-                h3.mt-3 Feedback:  
+                h3.mt-3 <i> Feedback </i>:  
                 p Combinación de reacciones, comentarios, sugerencias, observaciones, etc.; por eso debe existir comunicación constante entre los roles del equipo y del equipo con el cliente.
           
           .tarjeta.color-infografica-1(x="64%" y="62%" numero="+" )
@@ -82,7 +82,7 @@
 
     p.mb-3(data-aos="fade-down") Para lograr concretar los valores y llevarlos a la práctica es necesario relacionarlos con algunos principios útiles para el desarrollo. Al igual que los valores, los principios pueden ser muchos según la organización, el tipo de desarrollo o producto, etc.; los principios pueden ser establecidos dependiendo del sistema de software de la empresa.
 
-    p.mb-5(data-aos="fade-down") Los principios más destacados y enfocados al desarrollo de software en el marco de la programación XP son:
+    p.mb-5(data-aos="fade-down") Los principios más destacados y enfocados al desarrollo de <i> software </i> en el marco de la programación XP son:
   .container.bg-white.p-4.p-md-5.fondo-2.mg-top
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-10(data-aos="fade-down")
@@ -96,9 +96,9 @@
 
     .row.justify-content-star.align-items-start.mb-5
       .col-12.col-lg-7(data-aos="fade-right")
-        p.mb-3 Para lograr concretar los valores y llevarlos a la práctica es necesario relacionarlos con algunos principios útiles para el desarrollo. Al igual que los valores, los principios pueden ser muchos según la organización, el tipo de desarrollo o producto, etc.; los principios pueden ser establecidos dependiendo del sistema de software de la empresa.
+        p.mb-3 Las practicas XP son, simplemente, la manera en que los equipos realizan el desarollo día a día. Desde los comienzos Kent Beck clasificó con dos bloques de prácticas: las primarias y las practicas corolario.
 
-        p.mb-3 Los principios más destacados y enfocados al desarrollo de software en el marco de la programación XP son:
+        p.mb-3 Los principios más destacados y enfocados al desarrollo de <i> software </i> en el marco de la programación XP son:
       .col-8.col-md-8.col-lg-3(data-aos="fade-left")
         img(src="@/assets/curso/images/tema3/img_5.svg" alt="", style="width:450px; display:block; margin: 0 auto;")
 
@@ -144,10 +144,10 @@
             .tarjeta-flip__img.bgr_2.align-items-center.p-3
               figure.justify-center
                 img.img250.p-2(src='@/assets/curso/images/tema3/ico_4.svg', alt='imagen 1-2')
-                h3.text-center-1 Excepcionalidades de la prácticas
+                h3.text-center-1 Excepcionalidades de las prácticas
             .tarjeta-flip__contenido.bgr_3.p-5
               h3.text-white Excepcionalidades de la prácticas
-              p.text-white.mt-5 Una de las prácticas corolario propone reducir los integrantes del equipo, práctica peligrosa si no se respeta el rimo del equipo.
+              p.text-white.mt-5 Una de las prácticas corolario propone reducir los integrantes del equipo, práctica peligrosa si no se respeta el ritmo del equipo.
     
     .row.justify-content-center.align-items-center
       .col-lg-10
@@ -190,12 +190,38 @@
                   tr
                     td El equipo completo
                     td Reducir los equipos
+                  
+                  tr
+                    td Puesto de trabajo con información
+                    td Análisis de las causas
+                    
+                  tr
+                    td Ritmo sostenible
+                    td Código de pruebas
+                    
+                  tr
+                    td Programación en parejas
+                    td Propiedad colectiva del código
+
+                  tr
+                    td Diseño evolutivo
+                    td  Código base único
+                    
+                  tr
+                    td Pruebas antes de programar
+                    td Despliegue diario
+                  tr
+                    td Integración continua
+                    td                 
+                  tr
+                    td Construcción en 10 minutos
+                    td 
     Separador 
 
     #t_3_4.titulo-segundo
-      .h2 3.4. Scrum y XP
+      .h2 3.4. <i> Scrum  </i> y XP
     
-    p.mb-5(data-aos="fade-down") Son métodos basados en los valores y principios #[span.color-text <b>ágiles.</b>] Comparten prácticas de desarrollo, conviven en armonía siempre y cuando el proyecto esté basado en desarrollo de software. Con XP se desarrolla el software más económico, con menos errores y más productivo; por su parte, Scrum relaciona y mejora las actividades del equipo de desarrollo, organizando y gestionando el trabajo.
+    p.mb-5(data-aos="fade-down") Son métodos basados en los valores y principios #[span.color-text <b>ágiles.</b>] Comparten prácticas de desarrollo, conviven en armonía siempre y cuando el proyecto esté basado en desarrollo de <i> software. </i> Con XP se desarrolla el <i> software </i> más económico, con menos errores y más productivo; por su parte, <i> Scrum </i> relaciona y mejora las actividades del equipo de desarrollo, organizando y gestionando el trabajo.
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8(data-aos="fade-down")

@@ -5,12 +5,12 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 1
-      h1 Actividades Scrum  
+      h1 Actividades <i> Scrum  </i>
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg.order-1.order-lg-2(data-aos="fade-up")
         .custom_box_left 
-          p.mb-0 El conjunto de actividades de la metodología Scrum es el desarrollo en el que el equipo ejecuta tareas, según los acuerdos clave para el logro de los objetivos del proyecto. Este desarrollo se caracteriza por los diferentes <i>sprint</i> en cada fase. 
+          p.mb-0 El conjunto de actividades de la metodología <i> Scrum </i> es el desarrollo en el que el equipo ejecuta tareas, según los acuerdos clave para el logro de los objetivos del proyecto. Este desarrollo se caracteriza por los diferentes <i>sprint</i> en cada fase. 
   
       .col-auto.mb-5.mb-lg-0.onTop.order-2.order-lg-1(data-aos="fade-up")
         img(src="@/assets/curso/images/tema1/img_1.jpg" alt='AvatarTop', style="width:430px; display:block; margin:-6rem -3rem;").m-auto
@@ -26,7 +26,7 @@
               figure.justify-center
                 img.img250.mt-4(src='@/assets/curso/images/tema1/img_2.svg', alt='imagen 1-2')
             .tarjeta-flip__contenido.bgr_4.p-4.p-xl-5
-              p.text-white   1. Al inicio de un <i>sprint</i> han de seleccionarse los elementos del product backlog por desarrollar.
+              p.text-white   1. Al inicio de un <i>sprint</i> han de seleccionarse los elementos del <i> product backlog </i> por desarrollar.
       .col-sm-6.col-xl-3.mb-4.mb-xl-0.aling-0(data-aos="fade-down")
         .tarjeta.tarjeta-flip(@mouseover="indicadorTarjetaFlip = false")
           .tarjeta-flip__contenedor.color-tarjeta-2
@@ -41,7 +41,7 @@
     #t_1_1.titulo-segundo
       h2 1.1  <i>Sprint </i>
 
-    p.mb-5 Es la unidad de tiempo del ciclo en desarrollo Scrum, permite al equipo centrarse en aportar más valor al producto o proyecto; entre más <i>sprint</i> se planifique, mejor se da el avance del proyecto. Esta entrega da más valor al cliente, puesto que con él se logra visualizar la evolución del proyecto.
+    p.mb-5 Es la unidad de tiempo del ciclo en desarrollo <i> Scrum </i> , permite al equipo centrarse en aportar más valor al producto o proyecto; entre más <i>sprint</i> se planifique, mejor se da el avance del proyecto. Esta entrega da más valor al cliente, puesto que con él se logra visualizar la evolución del proyecto.
 
 
     .row.justify-content-center.align-items-center.mb-5
@@ -51,9 +51,9 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-lg-10
         .jumbotron.p-3.mb-3
-          p En algunos proyectos Scrum, el <i>sprint</i> 0 no es utilizado; en cambio, algunos otros proyectos lo ven como una antesala importante antes del primer <i>sprint</i> El <i>sprint</i> 0 no tiene una duración aproximada y se realiza solamente para las tareas previstas.
+          p En algunos proyectos <i> Scrum </i>, el <i> sprint </i> 0 no es utilizado; en cambio, algunos otros proyectos lo ven como una antesala importante antes del primer <i> sprint </i> El <i> sprint </i> 0 no tiene una duración aproximada y se realiza solamente para las tareas previstas.
         
-        p.mb-3 Se presentan algunos aspectos clave que debe conocer y asimilar relacionados con el <i>sprint</i>; procure llevar registro de lo más destacado en su libreta personal de apuntes:
+        p.mb-3 Se presentan algunos aspectos clave que debe conocer y asimilar relacionados con el <i> sprint </i>; procure llevar registro de lo más destacado en su libreta personal de apuntes:
 
     
   .container.bg-white.p-4.p-md-5.fondo-1.cs
@@ -74,7 +74,7 @@
           .tarjeta.color-infografica.p-2(x="86%" y="18%"  numero="+" )
             .row.justify-content-center.mb-3  
               .col-10
-                h3.mt-3 2. Daily meeting
+                h3.mt-3 2. <i> Daily meeting </i>
                 p Se trata de la reunión diaria con el <i>Development Team</i> (DT).
 
           .tarjeta.color-infografica.p-2(x="92%" y="72%"  numero="+")
@@ -111,7 +111,7 @@
       .row.align-items-center
         .col-md-6.mb-4.mb-md-0
           
-          p El <i>Sprint</i> 0 se relaciona con la fase inicial del proyecto, cuando el <i>Scrum Team</i> realiza la planeación inicial y define las reglas. De igual forma, se utiliza para entregar un pequeño ejemplo que evoluciona y permite llegar al <i>Sprint 1.</i>
+          p El <i> Sprint </i> 0 se relaciona con la fase inicial del proyecto, cuando el <i> Scrum Team </i> realiza la planeación inicial y define las reglas. De igual forma, se utiliza para entregar un pequeño ejemplo que evoluciona y permite llegar al <i> Sprint 1. </i>
       
         .col-md-6
           figure
@@ -132,7 +132,7 @@
           .col-auto.mb-5.mb-lg-0.onTop.order-1.order-lg-1(data-aos="fade-left")
             img(src="@/assets/curso/images/tema1/img_6.png" alt='AvatarTop', style="width:330px; display:block; margin:-6rem -1rem;").m-auto
 
-        p.mb-3 El <i>sprint planning</i> se divide en dos: el qué (what) y el cómo (how). A continuación, se detallan las particularidades de cada una de estas subdivisiones y otros elementos importantes relacionados:
+        p.mb-3 El <i>sprint planning</i> se divide en dos: el qué (<i> what </i>) y el cómo (<i> how </i>). A continuación, se detallan las particularidades de cada una de estas subdivisiones y otros elementos importantes relacionados:
     
     .row.justify-content-center.align-items-center.mb-5
       .tarjeta.col-md-12.col-12.pos12.gris.mb-5
@@ -152,7 +152,7 @@
                 img.p-y-1(src='@/assets/curso/images/tema1/2.png', alt='AvatarTop', style="width:350px;")
             .col-lg-7.align-items-center
               h5.aling-1 <i> What </i> (¿Qué se hará?)
-                p.mt-3 Es el detalle de la funcionalidad. Participa el Scrum Team y a veces, el cliente.
+                p.mt-3 Es el detalle de la funcionalidad. Participa el <i> Scrum Team </i> y a veces, el cliente.
           
           .row.justify-content-evenly.fondo-slyder
             .col-lg-4.col-7.center
@@ -181,7 +181,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg.order-2.order-lg-1(data-aos="fade-right")
         .custom_box_rigth 
-          p.mb-0 Se relaciona con el release, que es la forma de agrupar <i>sprints</i>. Es cuando el usuario no acepta algunas entregas de la funcionalidad finalizando cada <i>sprint</i> y se agrupan esos puntos. Concuerda con el final del <i>sprint</i> y se utiliza el <i>sprint</i> review para realizar la entrega total del producto.
+          p.mb-0 Se relaciona con el release, que es la forma de agrupar <i>sprints</i>. Es cuando el usuario no acepta algunas entregas de la funcionalidad finalizando cada <i>sprint</i> y se agrupan esos puntos. Concuerda con el final del <i>sprint</i> y se utiliza el <i>sprint</i> <i> review </i> para realizar la entrega total del producto.
   
       .col-auto.mb-5.mb-lg-0.onTop.order-1.order-lg-1(data-aos="fade-left")
         img(src="@/assets/curso/images/tema1/img_13.svg" alt='AvatarTop', style="width:330px; display:block; margin:-6rem -1rem;").m-auto
@@ -190,9 +190,7 @@
 
     figure.mb-5
       .video(data-aos="fade-down")
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-
- 
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/xHsK_0mSuUA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   
 </template>
 
