@@ -22,7 +22,7 @@
     #t_2_1.titulo-segundo
       .h2 2.1. El manifiesto ágil
 
-    p.mb-3 Hace referencia al conjunto de autores y personas relevantes, relacionadas con el desarrollo del software, quienes lograron plasmar las ideas y el sentimiento industrial del software. El manifiesto ágil surgió para dar un carácter específico, una identidad a los proyectos de desarrollo de software.
+    p.mb-3 Hace referencia al conjunto de autores y personas relevantes, relacionadas con el desarrollo del <i>software,</i> quienes lograron plasmar las ideas y el sentimiento industrial del <i> software. </i> El manifiesto ágil surgió para dar un carácter específico, una identidad a los proyectos de desarrollo de <i> software. </i>
 
     p.text-center Conozca y profundice en los principios constitutivos del manifiesto ágil, los cuales se detallan a continuación:
   .container.bg-white.p-2.p-md-3.fondo-1
@@ -43,7 +43,7 @@
           .tarjeta.color-infografica-2.p-3(x="37%" y="24%"  numero="+" )
             .row.justify-content-center.mb-3  
               .col-12
-                h3 2. Valorar más el software que funciona, que una documentación exhaustiva
+                h3 2. Valorar más el <i> software </i> que funciona, que una documentación exhaustiva
                 p Siempre es más importante el producto; esto no quiere decir que la documentación no sea importante, pero se deben tener prioridades.
 
           .tarjeta.color-infografica-2.p-3(x="72%" y="32%"  numero="+")

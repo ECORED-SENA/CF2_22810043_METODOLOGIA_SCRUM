@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Planeación, ejecución y desarrollos ágiles',
     descripcionCurso:
-      'Con el estudio de este componente el aprendiz estará en capacidad aplicar procesos de planeación, ejecución y desarrollos ágiles en el marco de proyectos de desarrollo de software. Afianzará sus conocimientos y habilidades en actividades Scrum, métodos ágiles, programación extrema, método Kanban, entre otras metodologías y enfoques, que buscan responder a requisitos y soluciones siempre cambiantes.',
+      'Con el estudio de este componente el aprendiz estará en capacidad aplicar procesos de planeación, ejecución y desarrollos ágiles en el marco de proyectos de desarrollo de <i> software. </i> Afianzará sus conocimientos y habilidades en actividades <i> Scrum, </i> métodos ágiles, programación extrema, método <i> Kanban, </i> entre otras metodologías y enfoques, que buscan responder a requisitos y soluciones siempre cambiantes.',
     fondoBannerPrincipal: require('@/assets/curso/images/header/fondo-banner-principal.png'),
     fondoBannerInterno: require('@/assets/curso/images/header/interno.svg'),
   },
@@ -104,7 +104,7 @@ export default {
         nombreRuta: 'tema4',
         icono: 'far fa-file-alt',
         numero: '4',
-        titulo: 'Kanban',
+        titulo: '<i> Kanban </i>',
         desarrolloContenidos: true,
       },
     ],

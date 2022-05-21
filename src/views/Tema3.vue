@@ -146,7 +146,7 @@
                 img.img250.p-2(src='@/assets/curso/images/tema3/ico_4.svg', alt='imagen 1-2')
                 h3.text-center-1 Excepcionalidades de las prácticas
             .tarjeta-flip__contenido.bgr_3.p-5
-              h3.text-white Excepcionalidades de la prácticas
+              h3.text-white Excepcionalidades de las prácticas
               p.text-white.mt-5 Una de las prácticas corolario propone reducir los integrantes del equipo, práctica peligrosa si no se respeta el ritmo del equipo.
     
     .row.justify-content-center.align-items-center

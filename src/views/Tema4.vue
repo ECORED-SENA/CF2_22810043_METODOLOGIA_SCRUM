@@ -9,7 +9,7 @@
 
     .row.justify-content-center.align-items-center.mb-4
       .col-12.col-lg-7(data-aos="fade-down")
-        p.mb-3 Además de <i> Scrum, </i> otro método extendido es Kanban. El método extendido hace referencia a que pueden ser agregados a otros métodos existentes. Kanban está fundamentado en los principios Lean y se centra en la eliminación de lo que no aporta valor, estos buscan reducir tiempos, precios y defectos.
+        p.mb-3 Además de <i> Scrum, </i> otro método extendido es <i> Kanban. </i> El método extendido hace referencia a que pueden ser agregados a otros métodos existentes. <i> Kanban. </i>  está fundamentado en los principios Lean y se centra en la eliminación de lo que no aporta valor, estos buscan reducir tiempos, precios y defectos.
         .cajon.color-custom-1.p-4.mb-4
           p El trabajo con <i> Kanban </i> se basa en definir un número máximo de tarjetas visuales en un tablero para cada fase del proceso; se trata de esperar antes de avanzar a otro estado. Estos procedimientos son efectivos para detectar atascos o errores, para que los problemas no se hagan más grandes y difíciles de solucionar. 
       .col-8.col-md-8.col-lg-5(data-aos="fade-left")
@@ -37,7 +37,7 @@
                 img(src='@/assets/curso/images/tema4/ico_3.svg' alt="", style="width:150px; display:block; margin:auto 0;").m-auto
               p.aling-9-text.mt-2 3. La aplicación de este método debe darse en fases establecidas para ello.
     
-      p.mb-3 Conozca ahora las fases para la aplicación del método kanban en proyectos de desarollo de software:
+      p.mb-3 Conozca ahora las fases para la aplicación del método <i> kanban </i> en proyectos de desarollo de <i> software: </i>
       br
       SlyderF.elemento.mb-5(columnas="col-lg-6 col-xl-4")(data-aos="fade-down")
         .tarjeta.sp1.p-3
