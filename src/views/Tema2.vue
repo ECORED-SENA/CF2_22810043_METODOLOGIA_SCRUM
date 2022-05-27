@@ -56,7 +56,7 @@
             .row.justify-content-center.mb-3      
               .col-12
                 h3 4. Valorar más la respuesta al cambio que el seguimiento de un plan
-                p Se debe valorar más la incertidumbre como parte del mismo trabajo; la adaptación y flexibilidad son más valiosas a los cambios que hacer seguimiento y cumplimiento a un plan.
+                p Se debe valorar más la incertidumbre como parte del mismo trabajo; la adaptación a los cambios y la flexibilidad son más valiosas que hacer seguimiento y asegurar el cumplimiento de un plan.
 
     Separador
     #t_2_2.titulo-segundo
