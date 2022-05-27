@@ -161,7 +161,7 @@
           
             .col-lg-6.align-items-center
               h5  Importancia del <i> sprint planning </i>
-                p.mt-3 Es muy importante, porque es allí donde el <b> DT </b> recoge y planifica el trabajo para el #[ span <i> sprint </i>]. Se tiene que proponer una metodología predictiva, puesto que no existe documentación. La comunicación entre todos debe ser fluida y dinámica. 
+                p.mt-3 Es muy importante, porque es allí donde el <b> DT </b> recoge y planifica el trabajo para el <i> sprint </i>. Se tiene que proponer una metodología predictiva, puesto que no existe documentación. La comunicación entre todos debe ser fluida y dinámica. 
             
           .row.justify-content-evenly.fondo-slyder
             .col-lg-4.col-7.center

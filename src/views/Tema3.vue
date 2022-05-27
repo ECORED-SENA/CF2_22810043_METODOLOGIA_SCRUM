@@ -16,7 +16,7 @@
       .col-12.col-lg-10(data-aos="fade-down")
         p.mb-3 Este proceso plantea una convivencia latente con la incertidumbre; de esta forma, el proceso se adapta a los cambios y a la variabilidad. En XP son naturales las transformaciones; la adaptación consiste, desde esta mirada, en ser capaces de laborar en entornos siempre cambiantes, siempre inciertos.
         .cajon.color-custom-1.p-4.mb-4(data-aos="fade-down")
-          p De esta manera, en XP se relacionan muchas practicas que se aplican de forma simultanea y realimentadas entre ellas. esta practica sigue evolucionando constantemente, por ello cada ve se incorporan nuevas prácticas en su formato. 
+          p De esta manera, en XP se relacionan muchas prácticas que se aplican de forma simultánea y realimentadas entre ellas. Esta práctica sigue evolucionando constantemente, por ello cada vez se incorporan nuevas prácticas en su formato. 
         p.mb-3(data-aos="fade-down") Profundice en las generalidades y aspectos constitutivos de la programación XP; preste atención al recurso que se muestra a continuación:
 
     figure
@@ -96,7 +96,7 @@
 
     .row.justify-content-star.align-items-start.mb-5
       .col-12.col-lg-7(data-aos="fade-right")
-        p.mb-3 Las practicas XP son, simplemente, la manera en que los equipos realizan el desarollo día a día. Desde los comienzos Kent Beck clasificó con dos bloques de prácticas: las primarias y las practicas corolario.
+        p.mb-3 Las prácticas XP son, simplemente, la manera en que los equipos realizan el desarollo día a día. Desde los comienzos Kent Beck clasificó con dos bloques de prácticas: las primarias y las practicas corolario.
 
         p.mb-3 Los principios más destacados y enfocados al desarrollo de <i> software </i> en el marco de la programación XP son:
       .col-8.col-md-8.col-lg-3(data-aos="fade-left")

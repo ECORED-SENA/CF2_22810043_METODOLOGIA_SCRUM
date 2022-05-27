@@ -56,7 +56,7 @@
             .row.justify-content-center.mb-3      
               .col-12
                 h3 4. Valorar más la respuesta al cambio que el seguimiento de un plan
-                p Se debe valorar más la incertidumbre como parte del mismo trabajo; la adaptación y flexibilidad como parte del mismo trabajo. 
+                p Se debe valorar más la incertidumbre como parte del mismo trabajo; la adaptación y flexibilidad son más valiosas a los cambios que hacer seguimiento y cumplimiento a un plan.
 
     Separador
     #t_2_2.titulo-segundo
@@ -116,7 +116,7 @@
             figure
               img.p-y-1(src='@/assets/curso/images/tema2/5.png').m-auto
           .col-lg-7.align-items-center
-            h5.mt-5 <i> Feature drivemen development </i>
+            h5.mt-5 <i> Feature Driven Development” FDD </i>
               p.mt-3 Desarrollo orientado hacia la funcionalidad. Método ágil orientado al desarrollo de sistemas informáticos; centrado solamente en fases de diseño y construcción.
 
         .row.justify-content-evenly.fondo-slyder

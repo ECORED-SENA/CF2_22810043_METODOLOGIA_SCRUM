@@ -21,18 +21,18 @@
     .col-lg-12.px-lg-5.px-4
       .row.justify-content-center.mb-5
         .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
-          .tarjeta--sencilla.p-3
+          .tarjeta--sencilla.p-3.h-100
               figure
                 img(src='@/assets/curso/images/tema4/ico_1.svg' alt="", style="width:155px; display:block; margin:auto 0;").m-auto
-              p.aling-9-text.text-small.mt-3  1. Surge para entregar a tiempo un producto y mejorar siempre los procesos.
+              p.aling-9-text.mt-3  1. Surge para entregar a tiempo un producto y mejorar siempre los procesos.
         .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
-          .tarjeta--sencilla-1.p-3
+          .tarjeta--sencilla-1.p-3.h-100
               figure
                 img(src='@/assets/curso/images/tema4/ico_2.svg' alt="", style="width:150px; display:block; margin:auto 0;").m-auto
-              p.aling-9-text.text-small 2. <i> Kanban </i> ayuda a optimizar los procesos establecidos en la organización, existiendo muchas maneras de aplicar <i> Kanban </i> al proyecto.
+              p.aling-9-text 2. <i> Kanban </i> ayuda a optimizar los procesos establecidos en la organización, existiendo muchas maneras de aplicar <i> Kanban </i> al proyecto.
         
         .col-md-8.col-lg-4.mb-4.mb-lg-0(data-aos="fade-down")
-          .tarjeta--sencilla-1.p-3
+          .tarjeta--sencilla-1.p-3.h-100
               figure
                 img(src='@/assets/curso/images/tema4/ico_3.svg' alt="", style="width:150px; display:block; margin:auto 0;").m-auto
               p.aling-9-text.mt-2 3. La aplicación de este método debe darse en fases establecidas para ello.
