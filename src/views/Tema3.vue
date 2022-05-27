@@ -96,7 +96,7 @@
 
     .row.justify-content-star.align-items-start.mb-5
       .col-12.col-lg-7(data-aos="fade-right")
-        p.mb-3 Las prácticas XP son, simplemente, la manera en que los equipos realizan el desarollo día a día. Desde los comienzos Kent Beck clasificó con dos bloques de prácticas: las primarias y las practicas corolario.
+        p.mb-3 Las prácticas XP son, simplemente, la manera en que los equipos realizan el desarollo día a día. Desde los comienzos Kent Beck clasificó con dos bloques de prácticas: las primarias y las prácticas corolario.
 
         p.mb-3 Los principios más destacados y enfocados al desarrollo de <i> software </i> en el marco de la programación XP son:
       .col-8.col-md-8.col-lg-3(data-aos="fade-left")
